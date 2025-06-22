@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Greet Me App</title>
+    <link rel="stylesheet" href="css/styles.css"/>
+  </head>
+  <body>
+    <div class="card">
+      <h1>To Do Manager!</h1><br>
+      <input type="text" id="taskInput" placeholder="Enter your Task" /><br>
+      <button onclick="addTask()">Add Task</button>
+      <button onclick="delTask()">Delete Task</button>
+      <table id="taskTable" border="1" class="styled-table">
+        <tr>
+          <th>#</th>
+          <th>Task</th>
+        </tr>
+      </table>
+  
+      <p id="greetingText"></p>
+    </div>
+    <div class="clock">
+      <h1 id="time">--:--:--</h1>
+    </div>
+  </body>
+  <script src="js/script.js" defer></script>
+</html>
